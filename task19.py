@@ -6,13 +6,13 @@
 11 12 13 14 15
 '''
 
-# k = 0
-# n = int(input("Enter the limit: "))
-# for i in range(1, 5+1):
-#     for j in range(i):
-#         k = k+1
-#         print(f"{k}", end=' ')
-#     print()
+k = 0
+n = int(input("Enter the limit: "))
+for i in range(1, 5+1):
+    for j in range(i):
+        k = k+1
+        print(f"{k}", end=' ')
+    print()
 
 '''
     *

@@ -1,0 +1,23 @@
+nav {
+    background-color: #2ECC71; /* Green color */
+    color: white;
+    display: flex; /* Makes the menu horizontal */
+    justify-content: space-between; /* Distributes links evenly */
+    padding: 10px;
+  }
+  
+  a {
+    text-decoration: none; /* Removes underline from links */
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  a:hover {
+    background-color: #27AE60; /* Darker green on hover */
+  }
+  
+  li {
+    list-style: none; /* Removes default bullet points */
+  }
+  

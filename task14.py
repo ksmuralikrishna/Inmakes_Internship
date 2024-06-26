@@ -14,4 +14,4 @@ print("List 2 \n", userList2)
 resultDict = {}
 for i in range(len(userList1)):
     resultDict[userList1[i]] = userList2[i]
-print("Result : ", resultDict)
+print("Result dictionary: ", resultDict)

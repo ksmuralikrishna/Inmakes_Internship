@@ -6,8 +6,6 @@ and finds and prints the keys (items) with the highest prices.'''
 
 def dictfun(userDict):
     maxPrice = max(userDict.values())
-    print(maxPrice)
-
     for key, value in userDict.items():
         if maxPrice == value:
             return key
